@@ -4,11 +4,10 @@ import model.constants.Discount;
 import model.constants.Colour;
 
 public class Apple extends Food implements Discountable {
-    public  String colour;
+    public  Colour colour;
 
-    public Apple (int amount, double price, String colour) {
+    public Apple (int amount, double price, Colour colour) {
         super(amount, price, true);
-
         this.colour = colour;
     }
 
